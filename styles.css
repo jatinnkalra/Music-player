@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    b background-color: rgb(255, 255, 255);
+}
+
+
+.bgimgcontainer {
+    width: 100vw;
+    /* height: 90vh; */
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.playingimg {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 35%;
+}
+
+.audiocontrols{
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    min-width: 35%;
+    background-color: white;
+    border-radius: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+#myAudio{
+    display: none;
+}
+
+a{
+    color: white;
+}
+i{
+    width: 1rem;
+    outline: none;
+}
+.audiocontrols audio{
+   width: 100%;
+   height: 40px;
+}
+
+.outersongcontainer {
+    width: 100vw;
+    min-height: 30rem;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.innersongcontainer {
+    width: 95%;
+    height: 100%;
+    background-color: rgb(92, 92, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.songscontainers {
+    /* background-color: aquamarine; */
+    min-width: 100%;
+    /* height: 3.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid white;
+    padding: 0.51rem;
+    background-color: rgb(31, 28, 28);
+}
+
+
+h6 {
+    color: white;
+    width: 70%;
+}
+
+.songscontainers img {
+    width: 50px;
+}
+
+
+.footercontainer{
+    width: 100vw;
+    background-color: #252629;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+}
